@@ -14,3 +14,53 @@ body {
   background: var(--mainWhite);
   color: var(--mainBlack);
 }
+/* navbar section */
+.navbar-toggler {
+  outline: none !important;
+}
+.toggler-icon {
+  font-size: 2.5rem;
+  color: var(--mainPink);
+}
+.nav-link {
+  color: var(--mainPink);
+  font-size: 1.5rem;
+  transition: all 0.75s ease-in-out;
+}
+.nav-link:hover {
+  color: var(--mainBlack);
+}
+/* cart info */
+.cart-info {
+  border: 0.1rem solid var(--mainBlack);
+  border-radius: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+.cart-info:hover {
+  background-color: var(--mainPink);
+  border-color: var(--mainPink);
+  color: var(--mainWhite);
+}
+/* banner */
+.max-height {
+  min-height: calc(100vh - 76px);
+  background: linear-gradient(var(--yellowTrans), var(--yellowTrans)), url(../img/headerBcg.jpeg) center/cover no-repeat fixed;
+}
+.banner {
+  color: var(--mainWhite);
+  margin-top: -4rem;
+}
+.banner-title {
+  color: var(--mainPink);
+  font-size: 4rem;
+}
+.banner-link {
+  font-size: 1.5rem;
+  border: 0.2rem solid var(--mainBlack);
+  color: var(--mainBlack);
+}
+.banner-link:hover {
+  color: var(--mainPink);
+  background-color: var(--mainBlack);
+}

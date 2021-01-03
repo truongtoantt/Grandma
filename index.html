@@ -42,7 +42,67 @@
          -->
   <!--end of icons icons -->
 
-
+  <header id="header">
+    <nav class="navbar navbar-expand-lg px-4">
+      <a href="#" class="navbar-brand">
+        <img src="img/logo.svg" alt="main icon">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+        <span class="toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Store</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Order</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-info-items d-none d-lg-flex">
+        <div class="nav-info d-flex justify-content-between align-items-center mx-lg-5">
+          <span class="info-icon mx-lg-3">
+            <i class="fas fa-phone"></i>
+          </span>
+          <p class="mb-0">+ 123 456 789</p>
+        </div>
+        <div class="nav-info cart-info d-flex justify-content-between align-items-center mx-lg-5" id="cart-info">
+          <span class="cart-info__icon mr-lg-3">
+            <i class="fas fa-shopping-cart"></i>
+          </span>
+          <p class="mb-0 text-capitalize">
+            <span id="item-count">2</span>
+            items - $
+            <span class="item-total">10.49</span>
+          </p>
+        </div>
+      </div>
+    </nav>
+    <!-- banner -->
+    <div class="container-fluid">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center">
+          <h1 class="text-capitalize">
+            welcome to <strong class="banner-title">Grandma's</strong>
+          </h1>
+          <a href="#store" id="store" class="btn banner-link text-uppercase my-2">explore</a>
+        </div>
+      </div>
+    </div>
+    <!-- end of banner -->
+  </header>
 
   <!-- jquery -->
   <script src="js/jquery-3.3.1.min.js"></script>
